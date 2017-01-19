@@ -400,3 +400,7 @@ animated fadeInUp {
   margin: 0px;
   width: 100%;
 }
+
+.remove-arrows {
+  display: none;
+}

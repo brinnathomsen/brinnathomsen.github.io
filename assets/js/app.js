@@ -9,6 +9,8 @@ $( document ).ready(function() {
         $(".personal-intro").css("width", "90%");
         $(".personal-intro").css("font-size", "24px");
           $(".personal-intro").css("line-height", "32px");
+          $(".left-arrow").addClass("remove-arrows");
+          $(".right-arrow").addClass("remove-arrows");
 
 
 
@@ -33,6 +35,8 @@ $( window ).resize(function() {
           $(".personal-intro").css("width", "80%");
           $(".personal-intro").css("font-size", "24px");
             $(".personal-intro").css("line-height", "32px");
+            $(".left-arrow").addClass("remove-arrows");
+            $(".right-arrow").addClass("remove-arrows");
       }
       else if ($(window).width() > 800){
         $("img").removeClass( "full-width-img" ).addClass( "half-width-img" );
@@ -41,6 +45,8 @@ $( window ).resize(function() {
         $(".personal-intro").css("width", "65%");
         $(".personal-intro").css("font-size", "30px");
           $(".personal-intro").css("line-height", "40px");
+          $(".left-arrow").removeClass("remove-arrows");
+          $(".right-arrow").removeClass("remove-arrows");
       }
 
      if ($(window).width() < 600){
@@ -49,6 +55,7 @@ $( window ).resize(function() {
 
          $(".personal-intro").css("font-size", "24px");
            $(".personal-intro").css("line-height", "30px");
+
 
       }
       else if ($(window).width() > 600){
