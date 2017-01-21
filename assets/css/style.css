@@ -144,7 +144,7 @@ a {
 .contact-info {
   font-size: 14px;
   margin-top: 30px;
-  color: grey;
+color: black;
 }
 
 .emphasis {
@@ -211,12 +211,21 @@ opacity: 0;
   width: 60%;
   display:inline-block;
   position: relative;
+   transition: all .2s ease-in-out;
 }
 
 .avalanche-img-little {
   width: 28.35%;
   display:inline-block;
   position: relative;
+   transition: all .2s ease-in-out;
+}
+
+.avalanche-img-big:hover {
+  transform: scale(1.05);
+}
+.avalanche-img-little:hover {
+  transform: scale(1.05);
 }
 
 .avalanche-project-blurb {
@@ -363,7 +372,7 @@ button:active {
 }
 
 .link {
-color: grey;
+color: black;
 font-weight:100;
 }
 
