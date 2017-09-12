@@ -2,11 +2,22 @@
 
 body {
   font-family: 'poppins', sans-serif;
+
+  /*font-family: 'big caslon', sans-serif;*/
+  /*background-color: #FEF8F2;*/
+  /*color: #2032B4;*/
+  color: #0000;
+/*font-family: 'Heebo', sans-serif;*/
+/*font-family: 'Athiti', sans-serif;*/
+/*font-family: roboto, serif;*/
   text-align: center;
   width: 100%;
     height: 100%;
     padding: 0;
     margin: 0;
+
+
+background-image: url("https://www.transparenttextures.com/patterns/asfalt-light.png");
   /*padding: 0px;
   font-size: 0px;
   width: 100%;*/
@@ -16,8 +27,7 @@ body {
   top: 20px;
   margin-top: -25px;
   font-family: poppins;
-  font-size: 14px;
-  letter-spacing: 1px;
+  /*letter-spacing: 1px;*/
   position: fixed;
   width: 100%;
   z-index: 5;
@@ -40,10 +50,20 @@ body {
 
 }*/
 
+.video {
+  background-color: #F7F7F7;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+video {
+  box-shadow: 10px 10px 30px #B9B9B9;
+}
 .personal-intro {
+  font-family: 'poppins', sans-serif;
   margin-top: 100px;
-  font-size: 30px;
-  letter-spacing: 1px;
+  font-size: 35px;
+  letter-spacing: 0px;
   /*margin-left: 20%;
   margin-right: 20%;*/
   line-height: 45px;
@@ -53,6 +73,7 @@ body {
   margin-right: auto;
 
 }
+
 
 #container {
   display: flex;
