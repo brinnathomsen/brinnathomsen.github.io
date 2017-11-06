@@ -153,6 +153,7 @@ a {
   font-size: 14px;
   margin-top: 30px;
 color: black;
+letter-spacing: 1px;
 }
 
 .emphasis {
@@ -435,6 +436,8 @@ animated fadeInUp {
 
 .emphasis {
   font-weight: bold;
+  letter-spacing: 1px;
+  margin-right: 20px;
 }
 
 #announcement-title {
