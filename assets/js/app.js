@@ -97,8 +97,8 @@ $(document).ready(function(){
 
 
 
-var titles = ["guess what?",  "I'm currently crafting", "Right now, I'm grooving to"];
-var texts = ["my team made it to the top 10 at the money 20/20 hackathon last month!",  "a speculative fiction about big data", "Olly Murs - You don't know love"];
+var titles = ["guess what?",  "I'm currently crafting", "I'm looking forward to"];
+var texts = ["my team made it to the top 10 at the money 20/20 hackathon last month!",  "a speculative fiction about big data", "graduating from Parsons School of Design in December!"];
 var count = 0;
 function changeText() {
     $("#example").text(texts[count]);

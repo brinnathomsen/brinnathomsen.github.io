@@ -386,9 +386,9 @@ font-weight:100;
 }
 
 .link:hover {
-color: #9013FE;
-/*font-weight:100;
-font-weight: bolder;*/
+/*color: #9013FE;*/
+
+font-weight: bolder;
 }
 
 
@@ -436,10 +436,14 @@ animated fadeInUp {
 
 .emphasis {
   font-weight: bold;
-  letter-spacing: 1px;
+  letter-spacing: 2px;
   margin-right: 20px;
 }
 
 #announcement-title {
   font-weight: bold;
+}
+
+.contact-info {
+    letter-spacing: 2px;
 }
