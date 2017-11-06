@@ -1,4 +1,8 @@
-
+@font-face
+{
+font-family: Gill Facia;
+src: url('assets/Gill Facia.ttf')
+}
 
 body {
     font-family: 'poppins', sans-serif;
