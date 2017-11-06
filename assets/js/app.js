@@ -64,3 +64,48 @@ $( window ).resize(function() {
         }
 
 });
+
+
+
+
+
+$(document).ready(function(){
+    $(window).scroll(function(){
+
+        if ($(window).scrollTop() > 200){
+            $('.row2').addClass('animated fadeInUp');
+            $('.row2').removeClass('hide');
+        }
+
+        if ($(window).scrollTop() > 600){
+            $('.row3').addClass('animated fadeInUp');
+            $('.row3').removeClass('hide');
+        }
+
+        if ($(window).scrollTop() > 1000){
+            $('.row4').addClass('animated fadeInUp');
+            $('.row4').removeClass('hide');
+        }
+
+        if ($(window).scrollTop() > 1400){
+            $('.row5').addClass('animated fadeInUp');
+            $('.row5').removeClass('hide');
+        }
+
+    });
+});
+
+
+
+var titles = ["guess what?",  "I'm currently crafting", "Right now, I'm grooving to"];
+var texts = ["my team made it to the top 10 at the money 20/20 hackathon last month!",  "a speculative fiction about big data", "Olly Murs - You don't know love"];
+var count = 0;
+function changeText() {
+    $("#example").text(texts[count]);
+    $('#example').addClass('animated fadeIn');
+    $("#announcement-title").text(titles[count]);
+
+    count < 3 ? count++ : count = 0;
+    $('.status-bar').addClass('animated fadeIn');
+}
+setInterval(changeText, 4000);

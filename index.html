@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html>
 <head>
 <meta name="viewport" content="width=device-width">
@@ -13,55 +12,62 @@
   <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.1.1.min.js"></script>
   <script src="assets/js/app.js"></script>
 </head>
+
+
 <body>
 
 
- <div class="animated fadeInUp">
-   <div class="personal-intro">
-     <b>  Hi, I'm Brinna – </b>
-     <br>
-     digital product designer, ice cream addict, idea machine,
-     Central Park jogger, creative coder, obsessive questioner & amateur futurist,
-     currently in training at Parsons School of Design in New York City.
 
+<div class="status-bar">
+   <span id="announcement-title"></span>
+   <span id="example"> </span>
+</div>
+
+   <div class="personal-intro">
+     <span class="name"> Hi, I'm Brinna — </span>
+     <span class="personal-desc">
+     product designer, ice cream addict, idea machine,
+     bike enthusiast, creative coder, obsessive questioner & amateur futurist.
+   </span>
      <div class="contact-info">
-      <span class="emphasis">Say Hello >></span>
-       <a class="link" href="mailto:thomb212@newschool.edu?subject=Hi_Brinna">brinna.thomsen@gmail.com</a> |
-       <!-- <a class="link" href="https://www.linkedin.com/in/brinna-thomsen-85a826b3" target="_blank">linkedin </a> | -->
+       <!-- <img src="assets/waving.gif" style="height:8%; padding-top: -50px;"> -->
+      <span class="emphasis"> <a class="link" href="mailto:thomb212@newschool.edu?subject=Hi_Brinna"><b>SAY HELLO</b>     </a></span> |
        <a class="link" href="brinna-thomsen-resume.pdf" target="_blank">Resume</a>
      </div>
    </div>
  </div>
 
-
-
 <div class="avalanche">
-  <div class="animated fadeInUp">
 
-  <a href="projects/exeq.html" class="avalanche-img">
-    <div class="avalanche-img-big hello-left">
-      <img src="assets/tiles/exeq.jpg" class="avalanche-img-test">
-      <div class="avalanche-project-blurb">
-      <div class="avalanche-project-title"> Exeq Internship</div>
-      <div class="avalanche-project-type"> UI/UX, GRAPHIC DESIGN </div>
-      </div>
+
+    <div class="row1 animated fadeInUp">
+      <a href="projects/exeq.html" class="avalanche-img">
+        <div class="avalanche-img-big hello-left">
+          <img src="assets/tiles/exeq.jpg" class="avalanche-img-test">
+          <div class="avalanche-project-blurb">
+            <div class="avalanche-project-title"> Exeq Internship</div>
+            <div class="avalanche-project-type"> UI/UX, GRAPHIC DESIGN </div>
+          </div>
+        </div>
+      </a>
+
+      <a href="projects/switch.html" class="avalanche-img">
+        <div class="avalanche-img-little hello-right">
+            <img src="assets/tiles/switch.jpg"  class="avalanche-img-test">
+            <div class="avalanche-project-blurb-small">
+              <div class="avalanche-project-title"> Switch </div>
+              <div class="avalanche-project-type"> PRODUCT DEVELOPMENT</div>
+            </div>
+        </div>
+       </a>
     </div>
-  </a>
 
-  <a href="projects/switch.html" class="avalanche-img">
-    <div class="avalanche-img-little hello-right">
-        <img src="assets/tiles/switch.jpg"  class="avalanche-img-test">
-        <div class="avalanche-project-blurb-small">
-        <div class="avalanche-project-title"> Switch </div>
-        <div class="avalanche-project-type"> PRODUCT DEVELOPMENT</div>
-      </div>
-    </div>
-   </a>
-
+ <!-- </div> -->
+<div class="row2 hide">
   <a href="projects/avalanche.html" class="avalanche-img">
     <div class="avalanche-img-little hello-left">
-        <img src="assets/tiles/avalanche.jpg"  class="avalanche-img-test">
-        <div class="avalanche-project-blurb-small">
+      <img src="assets/tiles/avalanche.jpg"  class="avalanche-img-test">
+      <div class="avalanche-project-blurb-small">
         <div class="avalanche-project-title"> Avalanche </div>
         <div class="avalanche-project-type"> WEB DESIGN </div>
       </div>
@@ -72,19 +78,21 @@
     <div class="avalanche-img-big hello-right">
       <img src="assets/tiles/aokay.jpg" class="avalanche-img-test">
       <div class="avalanche-project-blurb">
-      <div class="avalanche-project-title"> A-okay App </div>
-      <div class="avalanche-project-type"> PRODUCT DESIGN, UI/UX </div>
+        <div class="avalanche-project-title"> A-okay App </div>
+        <div class="avalanche-project-type"> PRODUCT DESIGN, UI/UX </div>
       </div>
     </div>
   </a>
+</div>
 
+<div class="row3 hide">
 
   <a href="projects/4am.html" class="avalanche-img">
     <div class="avalanche-img-big hello-left">
       <img src="assets/tiles/4am.jpg" class="avalanche-img-test">
       <div class="avalanche-project-blurb">
-      <div class="avalanche-project-title"> 4am Magazine </div>
-      <div class="avalanche-project-type"> EDITORIAL </div>
+        <div class="avalanche-project-title"> 4am Magazine </div>
+        <div class="avalanche-project-type"> EDITORIAL </div>
       </div>
     </div>
   </a>
@@ -94,34 +102,38 @@
      <div class="avalanche-img-little hello-right">
          <img src="assets/tiles/spiral.jpg"  class="avalanche-img-test">
          <div class="avalanche-project-blurb-small">
-         <div class="avalanche-project-title"> Spiral Generator </div>
-         <div class="avalanche-project-type"> CODE</div>
+           <div class="avalanche-project-title"> Spiral Generator </div>
+           <div class="avalanche-project-type"> HTML, CSS, JS</div>
        </div>
      </div>
     </a>
+  </div>
+
+  <div class="row4 hide">
 
     <a href="projects/ad-zine.html" class="avalanche-img">
       <div class="avalanche-img-little hello-left">
-          <img src="assets/tiles/remarkable.jpg"  class="avalanche-img-test">
-          <div class="avalanche-project-blurb-small">
-          <div class="avalanche-project-title"> Remarkable </div>
-          <div class="avalanche-project-type"> WEB DESIGN </div>
+        <img src="assets/tiles/remarkable.jpg" class="avalanche-img-test" style="width:100%">
+        <div class="avalanche-project-blurb-small">
+          <div class="avalanche-project-title"> Re.mark.able </div>
+          <div class="avalanche-project-type"> EDITORIAL </div>
         </div>
       </div>
      </a>
-
 
 
     <a href="projects/pond.html" class="avalanche-img">
       <div class="avalanche-img-big hello-right">
         <img src="assets/tiles/pond.jpg" class="avalanche-img-test">
         <div class="avalanche-project-blurb">
-        <div class="avalanche-project-title"> Pond </div>
-        <div class="avalanche-project-type"> PRODUCT DEVELOPMENT </div>
+          <div class="avalanche-project-title"> Pond </div>
+          <div class="avalanche-project-type"> PRODUCT DEVELOPMENT </div>
         </div>
       </div>
     </a>
+</div>
 
+<div class="row5 hide">
 
   <a href="projects/soul.html">
     <div class="avalanche-img-big hello-left">
@@ -136,20 +148,15 @@
   <a href="projects/pixels.html">
     <div class="avalanche-img-little hello-right">
         <img src="assets/tiles/pixels.jpg" class="avalanche-img-test">
+        <!-- <img src="assets/pixels/pixels-avalanche.png" class="avalanche-img-test"> -->
         <div class="avalanche-project-blurb-small">
-        <div class="avalanche-project-title"> Pixel Play </div>
-        <div class="avalanche-project-type"> CODE </div>
-      </div>
+          <div class="avalanche-project-title"> Pixel Play </div>
+          <div class="avalanche-project-type"> CODE </div>
+        </div>
     </div>
   </a>
-
-
-
-
-
 </div>
 </div>
-
-
+<div class="status-bar"></div>
 </body>
 </html>
