@@ -2,10 +2,10 @@
 
 @font-face {
     font-family: 'FreightBig Pro Book';
-    src: url('assets/FreightBigProBook-Italic.eot');
-    src: url('assets/FreightBigProBook-Italic.eot?#iefix') format('embedded-opentype'),
-        url('assets/FreightBigProBook-Italic.woff') format('woff'),
-        url('assets/FreightBigProBook-Italic.ttf') format('truetype');
+    src: url('FreightBigProBook-Italic.eot');
+    src: url('FreightBigProBook-Italic.eot?#iefix') format('embedded-opentype'),
+        url('FreightBigProBook-Italic.woff') format('woff'),
+        url('FreightBigProBook-Italic.ttf') format('truetype');
     font-weight: normal;
     font-style: italic;
 }
