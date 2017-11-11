@@ -33,8 +33,8 @@ $( window ).resize(function() {
           $(".project-blurb").css("width", "80%");
           $(".avalanche").css("width", "100%");
           $(".personal-intro").css("width", "80%");
-          $(".personal-intro").css("font-size", "24px");
-            $(".personal-intro").css("line-height", "32px");
+          // $(".personal-intro").css("font-size", "24px");
+          //   $(".personal-intro").css("line-height", "32px");
             $(".left-arrow").addClass("remove-arrows");
             $(".right-arrow").addClass("remove-arrows");
       }
@@ -43,15 +43,15 @@ $( window ).resize(function() {
         $(".project-blurb").css("width", "55%");
         $(".avalanche").css("width", "85%");
         $(".personal-intro").css("width", "65%");
-        $(".personal-intro").css("font-size", "30px");
-          $(".personal-intro").css("line-height", "40px");
+        // $(".personal-intro").css("font-size", "30px");
+        //   $(".personal-intro").css("line-height", "40px");
           $(".left-arrow").removeClass("remove-arrows");
           $(".right-arrow").removeClass("remove-arrows");
       }
 
      if ($(window).width() < 600){
        $(".avalanche-img-big").css("width", "100%");
-         $(".avalanche-img-little").css("width", "60%");
+         $(".avalanche-img-little").css("width", "46%");
 
          $(".personal-intro").css("font-size", "24px");
            $(".personal-intro").css("line-height", "30px");
@@ -97,15 +97,15 @@ $(document).ready(function(){
 
 
 
-var titles = ["guess what?",  "I'm currently crafting", "I'm looking forward to"];
-var texts = ["my team made it to the top 10 at the money 20/20 hackathon last month!",  "a speculative fiction about big data", "graduating from Parsons School of Design in December!"];
-var count = 0;
-function changeText() {
-    $("#example").text(texts[count]);
-    $('#example').addClass('animated fadeIn');
-    $("#announcement-title").text(titles[count]);
-
-    count < 3 ? count++ : count = 0;
-    $('.status-bar').addClass('animated fadeIn');
-}
-setInterval(changeText, 4000);
+// var titles = ["guess what?",  "I'm currently crafting", "I'm looking forward to"];
+// var texts = ["my team made it to the top 10 at the money 20/20 hackathon last month!",  "a speculative fiction about big data", "graduating from Parsons School of Design in December!"];
+// var count = 0;
+// function changeText() {
+//     $("#example").text(texts[count]);
+//     $('#example').addClass('animated fadeIn');
+//     $("#announcement-title").text(titles[count]);
+//
+//     count < 3 ? count++ : count = 0;
+//     $('.status-bar').addClass('animated fadeIn');
+// }
+// setInterval(changeText, 4000);
